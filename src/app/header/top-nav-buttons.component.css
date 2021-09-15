@@ -1,0 +1,11 @@
+.up-pills .nav-link.active{
+    background-color: black;
+}
+
+.down-pills .nav-link.active{
+    background-color:gold;
+}
+
+.signup {
+    color: gold;
+}
