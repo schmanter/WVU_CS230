@@ -5,5 +5,7 @@ import { Component } from "@angular/core";
     templateUrl: 'side-nav-bar.component.html'
 })
 export class SideNavBarComponent {
+    name = 'Angular';
 
+  
 }
