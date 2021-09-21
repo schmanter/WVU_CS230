@@ -2,27 +2,38 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { FeedComponent } from './feed/feed.component';
+import { GamesPageComponent } from './body/games/games-page.component';
+import { TrendingPageComponent } from './body/home/trending.component';
 import { BottomNavBarComponent } from './footer/bottom-nav-bar.component';
 import { SearchComponent } from './header/search.component';
 import { TopNavBarComponent} from './header/top-nav-bar.component';
 import { TopNavButtons } from './header/top-nav-buttons.component';
 import { LayoutMainComponent } from './layout/layout-main.component';
 import { SideNavBarComponent } from './sidebar/side-nav-bar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DownloadPageComponent } from './body/download/download-page.component';
+import { DiscoveryPageComponent } from './body/home/discovery.component';
+import { GameOneComponent } from './sidebar/game-routing/game-one.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     BottomNavBarComponent,
-    FeedComponent,
+    TrendingPageComponent,
     SideNavBarComponent,
     LayoutMainComponent,
     SearchComponent,
-    TopNavButtons
+    TopNavButtons,
+    GamesPageComponent,
+    DownloadPageComponent,
+    DiscoveryPageComponent,
+    GameOneComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
