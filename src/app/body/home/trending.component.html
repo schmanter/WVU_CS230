@@ -1,3 +1,7 @@
+<div routerLink="/trending" style="background-color: purple;">
+    Below is Trending Page
+</div>
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +14,17 @@
   </head>
   
 <body routerLink="/trending">
+    <div class="container-fluid">
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link blog" routerLink="/trending">
+              Trending
+            </a></li>
+            <li class="nav-item"><a class="nav-link blog" routerLink="/discovery">
+                Discovery
+            </a></li>
+        </ul>
+    </div>
+
     <div class="container">
         <div class="d-flex justify-content-center ">
             <div class="col-md-8">
