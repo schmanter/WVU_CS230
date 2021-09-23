@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DownloadPageComponent } from './body/download/download-page.component';
 import { DiscoveryPageComponent } from './body/home/discovery.component';
 import { GameOneComponent } from './sidebar/game-routing/game-one.component';
+import { LeftSpacerComponent } from './body/spacer/left-spacer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { GameOneComponent } from './sidebar/game-routing/game-one.component';
     GamesPageComponent,
     DownloadPageComponent,
     DiscoveryPageComponent,
-    GameOneComponent
+    GameOneComponent,
+    LeftSpacerComponent
 
   ],
   imports: [
