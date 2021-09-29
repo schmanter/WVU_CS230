@@ -15,6 +15,8 @@ import { DownloadPageComponent } from './body/download/download-page.component';
 import { DiscoveryPageComponent } from './body/home/discovery.component';
 import { GameOneComponent } from './sidebar/game-routing/game-one.component';
 import { LeftSpacerComponent } from './body/spacer/left-spacer.component';
+import { GameCard } from './body/games/game-card.component';
+import { GamesCards } from './body/games/games-cards-model';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { LeftSpacerComponent } from './body/spacer/left-spacer.component';
     DownloadPageComponent,
     DiscoveryPageComponent,
     GameOneComponent,
-    LeftSpacerComponent
+    LeftSpacerComponent,
+    GameCard
 
   ],
   imports: [
