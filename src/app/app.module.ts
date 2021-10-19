@@ -17,6 +17,8 @@ import { GameOneComponent } from './sidebar/game-routing/game-one.component';
 import { LeftSpacerComponent } from './body/spacer/left-spacer.component';
 import { GameCard } from './body/games/game-card.component';
 import { GamesCards } from './body/games/games-cards-model';
+import { HttpClientModule } from '@angular/common/http'
+import { UserInfoComponent } from './header/user-info.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +35,14 @@ import { GamesCards } from './body/games/games-cards-model';
     DiscoveryPageComponent,
     GameOneComponent,
     LeftSpacerComponent,
-    GameCard
+    GameCard,
+    UserInfoComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
