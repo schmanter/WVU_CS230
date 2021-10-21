@@ -23,7 +23,7 @@ var data = [
 
 
 @Component({
-    selector: "Game-info",
+    selector: "game-info",
     templateUrl: "game-card.component.html"
 })
 export class GameInfoComponent implements OnInit {

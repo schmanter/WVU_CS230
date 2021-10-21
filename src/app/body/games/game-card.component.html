@@ -1,5 +1,5 @@
-<p *ngIf="myGame == undefined">Failed fetching game info</p>
-<div *ngIf="myGame != undefined">
+<p *ngIf="gameInfoService.getGameInfo() == undefined">Failed fetching game info</p>
+<div *ngIf="gameInfoService.getGameInfo() != undefined">
     <div class="card card-apex bg-dark mx-3 h-100" style="width: 12rem;">
         <img src="{{GameInfo.picture}}" class="card-img-top" alt="...">
         <div class="card-body-apex">
