@@ -19,6 +19,8 @@ import { GameCard } from './body/games/game-card.component';
 import { GamesCards } from './body/games/games-cards-model';
 import { HttpClientModule } from '@angular/common/http'
 import { UserInfoComponent } from './header/user-info.component';
+import { GameInfoComponent } from './body/games/game-info.component';
+import { GameInfoService } from './body/games/game-service';
 
 @NgModule({
   declarations: [
@@ -36,8 +38,9 @@ import { UserInfoComponent } from './header/user-info.component';
     GameOneComponent,
     LeftSpacerComponent,
     GameCard,
-    UserInfoComponent
-
+    UserInfoComponent,
+    GameInfoComponent,
+    GameInfoService
   ],
   imports: [
     BrowserModule,
